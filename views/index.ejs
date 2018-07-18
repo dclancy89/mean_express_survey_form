@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+    <form action="/result" method="post">
+        <label for="your_name">Your Name:</label>
+        <input type="text" name="your_name" />
+
+        <label for="dojo_location">Dojo Location</label>
+        <select name="dojo_location">
+            <option value="Online">Online</option>
+            <option value="Washington D.C.">Washington D.C.</option>
+            <option value="Silicon Valley">Silicon Valley</option>
+            <option value="Dallas, TX">Dallas, TX</option>
+        </select>
+
+        <label for="favorite_language">Favorite Language</label>
+        <select name="favorite_language">
+            <option value="Javascript">Javascript</option>
+            <option value="C#/.NET">C#/.NET</option>
+            <option value="Python">Python</option>
+        </select>
+
+        <label for="comments">Comments (options)</label>
+        <textarea name="comments"></textarea>
+       
+        <input type="submit" value="submit">
+    </form>
+    
+</body>
+</html>
